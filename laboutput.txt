@@ -1,0 +1,62 @@
+test_0 (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4a.py ... ok
+test_a (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for errors running: ./lab4a.py ... ok
+test_a1 (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4a.py ... ok
+test_a_function_join (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() fails without 2 arguments ... ok
+test_b_function_join (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() fails without 2 arguments ... ok
+test_c_function_join (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() fails without 2 arguments ... ok
+test_d_function_join_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() joins sets together {1,2,3,4,5} and {2,1,0,-1,-2} ... ok
+test_e_function_join_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_sets() joins sets together ... ok
+test_f_function_match_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() ... ok
+test_g_function_match_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_sets() ... ok
+test_h_function_diff_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() ... ok
+test_i_function_diff_sets (__main__.lab4a)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_sets() ... ok
+test_0 (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4b.py ... ok
+test_a (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for errors running: ./lab4b.py ... ok
+test_a1 (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4b.py ... ok
+test_a_function_join (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() fails without 2 arguments ... ok
+test_b_function_join (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function match_lists() fails without 2 arguments ... ok
+test_c_function_join (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function diff_lists() fails without 2 arguments ... ok
+test_d_function_join_lists (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() joins lists together {1,2,3,4,5} and {2,1,0,-1,-2} ... FAIL
+
+======================================================================
+FAIL: test_d_function_join_lists (__main__.lab4b)
+[Lab 4] - [Investigation 1] - [Part 2] - Sets - function join_lists() joins lists together {1,2,3,4,5} and {2,1,0,-1,-2}
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/otere/ops445/lab4/./CheckLab4.py", line 206, in test_d_function_join_lists
+    self.assertTrue(lab4bStudent.join_lists(list1,list2) == list(set(list1)|set(list2)), msg=error_output)
+AssertionError: False is not true : problem joining(HINT: join_lists({1,2,3,4,5}, {2,1,0,-1,-2}))
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.017s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab4.py
+=================================================================
+    User login name: otere
+    Linux system name: Tega
+    Python executable: /usr/bin/python3
+    Python version: 31012
+    OS Platform: linux
+    Working Directory: /home/otere/ops445/lab4
+    Start at: Sun Jun 30 17:08:36 2024
+=================================================================
